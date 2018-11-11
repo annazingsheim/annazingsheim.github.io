@@ -1,0 +1,139 @@
+body, p {
+	margin: 0;
+	font-family: 'Crimson Text', serif;
+}
+
+.background-color {
+ 	background-color: #D5D8DC;
+}
+
+.background-img {
+	background: url(https://cdn.flixel.com/flixel/65hxqr4u4o62idb86e36.thumbnail.jpg?v=1) no-repeat center center fixed;
+	background-size: cover;
+	height: 100vh;
+	width: 100vw;
+	text-align: center;
+}
+
+.second-background-img {
+	background: url(https://hurrareykjavik.is/kerfi/wp-content/uploads/2016/12/iceland-photography-benjamin-hardman-island-landscape-untitledDJI_0406.jpg) no-repeat center center;
+	background-size: cover;
+	height: 70vh;
+	width: 100vw;
+}
+
+.third-background-img {
+	background: url(https://static1.squarespace.com/static/53bc4798e4b018d9b4809d82/t/59a460f015d5db5cd1923b74/1503944971804/iceland-photography-benjamin-hardman-i%CC%81sland-landscape-untitledDJI_0161.jpg?format=1500w) no-repeat center center;
+	background-size: cover;
+	height: 70vh;
+	width: 100vw;	
+}
+
+
+.fourth-background-img {
+	background: url(https://i.pinimg.com/originals/0d/f3/3f/0df33f4200a5921a2f8be9e25fbb219d.jpg) no-repeat center center;
+	background-size: cover;
+	height: 70vh;
+	width: 100vw;	
+}
+
+.sitename {
+	padding: 175px;
+	font-size: 50px;
+	color: #F7F9F9;
+}
+
+.titles {
+	font-size: 30px;
+}
+
+.texts {
+	padding-bottom: 70px;
+}
+
+.navbar {
+	padding: 15px;
+}
+
+h2 {
+	font-size: 20px;
+	padding-right: 1010px;
+	font-weight: bold;
+}
+
+.fab {
+	padding-right: 15px;
+	color: black;
+}
+
+section {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-right: 80px;
+    padding-left: 80px;
+}
+
+.padding {
+	padding-bottom: 50px;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.carousel-item {
+	height: 180px;
+}
+
+.carousel-control-next, .carousel-control-prev{
+	top: -50px;
+}
+
+.container {
+	padding-top: 50px;
+}
+
+.nav-space {
+    margin-top: 14px;
+}
+
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.cta {
+    display: inline-block;
+    color: white;
+    border: 1px solid white;
+    text-transform: uppercase;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 17px;
+    padding-right: 17px;
+    margin-left: 3px;
+    margin-right: 3px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: 14px;
+    text-shadow: 2px 4px 6px rgba(0,0,0,0.3);
+    cursor: pointer;
+    background-color: rgba(55, 49, 88, 0.16);
+}
+
+.more-padding {
+	padding-right: 150px;
+	padding-left: 150px;
+}
+
+.cta:hover {
+	background-color: grey;
+}
+
